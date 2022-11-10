@@ -1,0 +1,29 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Bahnschrift', sans-serif;
+  background: linear-gradient(#131921, #232f3e);
+  color: #ffffff;
+}
+
+.brand-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Righteous', cursive;
+}
